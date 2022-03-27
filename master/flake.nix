@@ -11,6 +11,7 @@
   inputs.src-gnutls-master.ref   = "refs/heads/master";
   inputs.src-gnutls-master.owner = "FedericoCeratto";
   inputs.src-gnutls-master.repo  = "nim-gnutls";
+  inputs.src-gnutls-master.dir   = "";
   inputs.src-gnutls-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
