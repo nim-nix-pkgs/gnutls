@@ -11,7 +11,6 @@
   inputs.src-gnutls-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-gnutls-0_1_0.owner = "FedericoCeratto";
   inputs.src-gnutls-0_1_0.repo  = "nim-gnutls";
-  inputs.src-gnutls-0_1_0.dir   = "";
   inputs.src-gnutls-0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
